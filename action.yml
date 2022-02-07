@@ -1,11 +1,13 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'We are hiring search jobs'
+description: 'Search jobs on github.com site'
+author: 'pyoner'
 inputs:
-  milliseconds: # change this
+  query: # change this
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'query string for search jobs'
+  dir:
+    required: true
+    description: 'save jobs to the dir' 
 runs:
   using: 'node12'
   main: 'dist/index.js'
