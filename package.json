@@ -31,9 +31,7 @@
     "@iarna/toml": "^2.2.5",
     "@octokit/rest": "^18.12.0",
     "markdown-to-txt": "^2.0.0",
-    "remark": "^14.0.2",
-    "slugify": "^1.6.5",
-    "strip-markdown": "^5.0.0"
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
     "@jest/globals": "^27.5.0",
